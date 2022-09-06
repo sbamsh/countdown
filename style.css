@@ -45,7 +45,49 @@ body {
     border-bottom-left-radius: .1em;
 }
 
+.container {
+    display: flex;
+    gap: .5em;
+    justify-content: center;
     
+}
+
+
+.container-segment {
+    display: flex;
+    gap: .1em;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.segment {
+    display: flex;
+    gap: .15em;
+    
+}
+
+.segment-title {
+    font-size: 1rem;
+}
+    
+.title {
+    display: flex;
+    gap: .5em;
+    justify-content: center;
+}
+
+.first-word, .sec-word {
+    font-size: 3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+.sec-word {
+    color: black;
+}
+
+
 
 /* animation */
 
